@@ -25,6 +25,9 @@ This project is a demo of chat application uses:
 - [Unit Test]
 - [UI Test]
 
+### More documentation:
+Please open `docs` folder and open `index.html` file
+
 ### Project structure
 
 |↝ `Application`: contains global variables, application management functions, prefix,..
