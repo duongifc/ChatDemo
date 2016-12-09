@@ -59,9 +59,9 @@ This project is a demo of chat application uses:
 
 |↝ `Utilities`:  help develop easier and faster and code more beautiful
 
-|↝ `Extensions`: contains extensions
+|-----|-----↝ `Extensions`: contains extensions
 
-|---------|-----↝ **and other**
+|-----|-----↝ **and other**
 
 
 
