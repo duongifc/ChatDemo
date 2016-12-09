@@ -14,7 +14,7 @@
     <a title="ChatViewModel Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html"> Docs</a> (46% documented)</p>
+        <p><a href="../index.html"> Docs</a> (78% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -105,7 +105,13 @@
         <section>
           <section class="section">
             <h1>ChatViewModel</h1>
-            <p>Undocumented</p>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">ChatViewModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/BaseViewModel.html">BaseViewModel</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>View model of chat screen</p>
 
           </section>
           <section class="section task-group-section">
@@ -131,8 +137,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Default height of text view message</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">let</span> <span class="nv">defaultTextviewHeight</span><span class="p">:</span> <span class="kt">CGFloat</span> <span class="o">=</span> <span class="mi">31</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -150,8 +164,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Subcribe this observable to receive new message</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">onReceivedMessage</span><span class="p">:</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/ChatModel.html">ChatModel</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -169,8 +191,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Subcribe this observable get new height of text view message while typing long text</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">onUpdateTextViewSize</span><span class="p">:</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt">CGFloat</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -188,8 +218,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Subcribe this observable to enable or disable send button</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">onEnableSendButton</span><span class="p">:</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -207,8 +245,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Subcribe this observable to clear text of text view message after sending, deleting</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">onClearTextViewMessage</span><span class="p">:</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -237,8 +283,22 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Init <code>ChatViewModel</code> object</p>
 
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    chatService: given chat service
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="nf">init</span><span class="p">(</span><span class="nv">chatService</span><span class="p">:</span> <span class="kt"><a href="../Protocols/ChatService.html">ChatService</a></span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -267,8 +327,23 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method use to send an message after tapping on send button.</p>
 
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    Parameter
+message: given message from text view message
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">sendMessage</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -286,8 +361,16 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>This method use to receive messages. After receiving an message, an event will be emitted, subscribe <code><a href="../Classes/ChatViewModel.html#/s:vC8ChatDemo13ChatViewModel17onReceivedMessageGC7RxSwift10ObservableCS_9ChatModel_">onReceivedMessage</a></code> observable to get new message.</p>
 
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">receiveMessage</span><span class="p">()</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -316,8 +399,22 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Increase or decrease height of text view message while typing</p>
 
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    textView: text view message
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">textViewMessageDidChange</span><span class="p">(</span><span class="nv">textView</span><span class="p">:</span> <span class="kt">UITextView</span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>
@@ -335,8 +432,34 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>Check valid message in range</p>
 
+<div class="aside aside-remark">
+    <p class="aside-title">Remark</p>
+    <p>Remark:</p>
+
+<ul>
+<li>Min: 1 character</li>
+<li>Max: 144 characters</li>
+<li>If message is valid, send button will be enabled. If no, will be disabled</li>
+</ul>
+
+</div>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    <p>message: give message</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">checkValid</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
                       </div>
                     </section>
                   </div>

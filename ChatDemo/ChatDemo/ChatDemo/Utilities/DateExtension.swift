@@ -9,6 +9,10 @@
 import Foundation
 
 extension Date {
+    
+    /**
+     Get miliseconds from given date
+     */
     func getMiliSecond() -> Int64 {
         return Int64(self.timeIntervalSince1970 * 1000)
     }

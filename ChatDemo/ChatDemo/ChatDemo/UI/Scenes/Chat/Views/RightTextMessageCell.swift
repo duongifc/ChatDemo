@@ -7,10 +7,12 @@
 //
 
 import UIKit
-
+/**
+ This uses to render partner message box
+ */
 class RightTextMessageCell: UICollectionViewCell {
 
-    @IBOutlet weak var constraintImageViewAvatarWidth: NSLayoutConstraint!
+    @IBOutlet private weak var constraintImageViewAvatarWidth: NSLayoutConstraint!
     @IBOutlet private weak var containerView: UIView!{
         didSet {
             containerView.layer.cornerRadius = 10
@@ -28,6 +30,9 @@ class RightTextMessageCell: UICollectionViewCell {
         }
     }
     
+    /**
+     Implment logic code for preparing data before rendering
+     */
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -36,6 +41,12 @@ class RightTextMessageCell: UICollectionViewCell {
         labelMessage.preferredMaxLayoutWidth = UIScreen.main.bounds.width - constraintImageViewAvatarWidth.constant * 2 - 16
     }
     
+    /**
+     Bind and show data with given `ChatModel`
+     
+     - Paramater:
+     chatModel: given chat model
+     */
     func bind(chatModel: ChatModel) {
         labelMessage.text = chatModel.message
     }

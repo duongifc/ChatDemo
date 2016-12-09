@@ -7,8 +7,12 @@
 //
 
 import Foundation
+/**
+ Instances
+ */
 class Components {
     
+    ///Instance of Components
     static let instance = Components()
     
     //MARK: Chat api

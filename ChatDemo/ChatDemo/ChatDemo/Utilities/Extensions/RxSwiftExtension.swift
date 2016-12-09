@@ -10,6 +10,9 @@ import Foundation
 import RxSwift
 
 extension DisposeBag {
+    /**
+     Add `Disposable` array to `DisposeBag`
+     */
     func addDisposables(array: [Disposable]) {
         for item in array {
             insert(item)
