@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ChatService Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Protocol/ChatService" class="dashAnchor"></a>
+    <a title="ChatService Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (46% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ChatService Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseViewController.html">BaseViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseViewModel.html">BaseViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatApiImpl.html">ChatApiImpl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatDataSource.html">ChatDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatMessageTransformerImpl.html">ChatMessageTransformerImpl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatModel.html">ChatModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatServiceImpl.html">ChatServiceImpl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatViewController.html">ChatViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ChatViewModel.html">ChatViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Components.html">Components</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LeftTextMessageCell.html">LeftTextMessageCell</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PlaceholderTextView.html">PlaceholderTextView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RightTextMessageCell.html">RightTextMessageCell</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DisposeBag.html">DisposeBag</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatApi.html">ChatApi</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatMessageTransformer.html">ChatMessageTransformer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ChatService.html">ChatService</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ChatService</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">protocol</span> <span class="kt">ChatService</span></code></pre>
+
+                </div>
+              </div>
+            <p>A service use for chat api integration</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:vP8ChatDemo11ChatService17onReceivedMessageGC7RxSwift10ObservableCS_9ChatModel_"></a>
+                    <a name="//apple_ref/swift/Property/onReceivedMessage" class="dashAnchor"></a>
+                    <a class="token" href="#/s:vP8ChatDemo11ChatService17onReceivedMessageGC7RxSwift10ObservableCS_9ChatModel_">onReceivedMessage</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An observable uses to receive an message <code><a href="../Classes/ChatModel.html">ChatModel</a></code> after analyzing data from the api</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">onReceivedMessage</span><span class="p">:</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt"><a href="../Classes/ChatModel.html">ChatModel</a></span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FP8ChatDemo11ChatService4sendFT7messageSS_GC7RxSwift10ObservableSb_"></a>
+                    <a name="//apple_ref/swift/Method/send(message:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FP8ChatDemo11ChatService4sendFT7messageSS_GC7RxSwift10ObservableSb_">send(message:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method use to send an message</p>
+
+<div class="aside aside-parameter">
+    <p class="aside-title">Parameter</p>
+    <p>Parameter
+message: given message</p>
+
+</div>
+
+<div class="aside aside-returns">
+    <p class="aside-title">Returns</p>
+    <p><code>Observable&lt;Bool&gt;</code>:  the status of sending message action</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">send</span><span class="p">(</span><span class="nv">message</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt">Bool</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p><code>Observable&lt;Bool&gt;</code>:  the status of sending message action</p>
+
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FP8ChatDemo11ChatService7receiveFT_GC7RxSwift10ObservableT__"></a>
+                    <a name="//apple_ref/swift/Method/receive()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FP8ChatDemo11ChatService7receiveFT_GC7RxSwift10ObservableT__">receive()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method use to receive messages. After receiving an message, an event will be emitted, subscribe <code><a href="../Protocols/ChatService.html#/s:vP8ChatDemo11ChatService17onReceivedMessageGC7RxSwift10ObservableCS_9ChatModel_">onReceivedMessage</a></code> observable to get new message.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">receive</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Observable</span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2016-12-09)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.3</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

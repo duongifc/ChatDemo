@@ -1,0 +1,369 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/AppDelegate.swift",
+      "line": 21,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/AppDelegate.swift",
+      "line": 26,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/AppDelegate.swift",
+      "line": 31,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/AppDelegate.swift",
+      "line": 44,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/Components.swift",
+      "line": 10,
+      "symbol": "Components",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Application/Components.swift",
+      "line": 12,
+      "symbol": "Components.instance",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Data/Apis/ChatApi.swift",
+      "line": 12,
+      "symbol": "ChatApi",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Data/Apis/ChatApi.swift",
+      "line": 13,
+      "symbol": "ChatApi.send(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Data/Apis/ChatApi.swift",
+      "line": 14,
+      "symbol": "ChatApi.receive()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Models/ChatModel.swift",
+      "line": 23,
+      "symbol": "ChatModel.init(id:message:time:isMine:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Services/ChatServiceImpl.swift",
+      "line": 28,
+      "symbol": "ChatServiceImpl.init(chatApi:transformer:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/CustomControls/PlaceholderTextView/PlaceholderTextView.swift",
+      "line": null,
+      "symbol": "PlaceholderTextView",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/CustomControls/PlaceholderTextView/PlaceholderTextView.swift",
+      "line": 11,
+      "symbol": "PlaceholderTextView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/CustomControls/PlaceholderTextView/PlaceholderTextView.swift",
+      "line": 18,
+      "symbol": "PlaceholderTextView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/CustomControls/PlaceholderTextView/PlaceholderTextView.swift",
+      "line": 26,
+      "symbol": "PlaceholderTextView.layoutSubviews()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/CustomControls/PlaceholderTextView/PlaceholderTextView.swift",
+      "line": 42,
+      "symbol": "PlaceholderTextView.applyPlaceholderStyle(placeholderText:placeholderColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/CustomControls/PlaceholderTextView/PlaceholderTextView.swift",
+      "line": 65,
+      "symbol": "PlaceholderTextView.textViewDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": null,
+      "symbol": "ChatViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 11,
+      "symbol": "ChatViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 46,
+      "symbol": "ChatViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 55,
+      "symbol": "ChatViewController.viewWillAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 60,
+      "symbol": "ChatViewController.viewDidAppear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 70,
+      "symbol": "ChatViewController.viewWillDisappear(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 91,
+      "symbol": "ChatViewController.keyboardWillShow(notification:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 103,
+      "symbol": "ChatViewController.keyboardWillHide(notification:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 111,
+      "symbol": "ChatViewController.clickOnSendButton(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 115,
+      "symbol": "ChatViewController.clickOnReceiveButton(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 119,
+      "symbol": "ChatViewController.tapOnCollectionView(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewControllers/ChatViewController.swift",
+      "line": 226,
+      "symbol": "ChatViewController.textViewDidChange(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 12,
+      "symbol": "ChatViewModel",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 15,
+      "symbol": "ChatViewModel.defaultTextviewHeight",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 23,
+      "symbol": "ChatViewModel.onReceivedMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 28,
+      "symbol": "ChatViewModel.onUpdateTextViewSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 33,
+      "symbol": "ChatViewModel.onEnableSendButton",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 38,
+      "symbol": "ChatViewModel.onClearTextViewMessage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 43,
+      "symbol": "ChatViewModel.init(chatService:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 64,
+      "symbol": "ChatViewModel.sendMessage(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 70,
+      "symbol": "ChatViewModel.receiveMessage()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 75,
+      "symbol": "ChatViewModel.textViewMessageDidChange(textView:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/ViewModels/ChatViewModel.swift",
+      "line": 94,
+      "symbol": "ChatViewModel.checkValid(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/LeftTextMessageCell.swift",
+      "line": 11,
+      "symbol": "LeftTextMessageCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/LeftTextMessageCell.swift",
+      "line": 13,
+      "symbol": "LeftTextMessageCell.constraintImageViewAvatarWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/LeftTextMessageCell.swift",
+      "line": 33,
+      "symbol": "LeftTextMessageCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/LeftTextMessageCell.swift",
+      "line": 41,
+      "symbol": "LeftTextMessageCell.bind(chatModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/RightTextMessageCell.swift",
+      "line": 11,
+      "symbol": "RightTextMessageCell",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/RightTextMessageCell.swift",
+      "line": 13,
+      "symbol": "RightTextMessageCell.constraintImageViewAvatarWidth",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/RightTextMessageCell.swift",
+      "line": 31,
+      "symbol": "RightTextMessageCell.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/UI/Scenes/Chat/Views/RightTextMessageCell.swift",
+      "line": 39,
+      "symbol": "RightTextMessageCell.bind(chatModel:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Utilities/DateExtension.swift",
+      "line": 12,
+      "symbol": "Date.getMiliSecond()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo/ChatDemo/Utilities/Extensions/RxSwiftExtension.swift",
+      "line": 13,
+      "symbol": "DisposeBag.addDisposables(array:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/duong.tran/Desktop/ChatDemo/ChatDemo"
+}

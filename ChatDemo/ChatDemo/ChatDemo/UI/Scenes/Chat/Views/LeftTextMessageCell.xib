@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LeftTextMessageCell" id="gTV-IL-0wX" customClass="LeftTextMessageCell" customModule="ChatDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="391" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="391" height="225"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xZz-yZ-glk">
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qct-c1-y9o">
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="0aq-NA-l4m"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="T9N-ce-hkv"/>
+                                </constraints>
+                                <string key="text">ChatDemo[2540:88141] Unknown class ChatViewController in Interface Builder file.
+2016-12-08 09:10:21.426716 ChatDemo[2540:88141] subsystem: com.apple.BackBoardServices.fence, category: App, enable_level: 1, persist_level: 0, default_ttl: 0, info_ttl: 0, debug_ttl: 0, generate_symptoms: 0, enable_oversize: 0, privacy_setting: 0, enable_private_data: 0</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.17332931839999999" green="0.60797667460000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Qct-c1-y9o" secondAttribute="bottom" constant="5" id="2wQ-78-wsv"/>
+                            <constraint firstItem="Qct-c1-y9o" firstAttribute="leading" secondItem="xZz-yZ-glk" secondAttribute="leading" constant="5" id="COl-Jb-xcW"/>
+                            <constraint firstAttribute="trailing" secondItem="Qct-c1-y9o" secondAttribute="trailing" constant="5" id="gKm-Ek-g4h"/>
+                            <constraint firstItem="Qct-c1-y9o" firstAttribute="top" secondItem="xZz-yZ-glk" secondAttribute="top" constant="5" id="wbq-4V-5rM"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl" translatesAutoresizingMaskIntoConstraints="NO" id="X1E-l5-DaZ">
+                        <color key="backgroundColor" red="0.17332931841870802" green="0.60797667455725279" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="X1E-l5-DaZ" secondAttribute="height" multiplier="1:1" id="KsT-t6-Kgl"/>
+                            <constraint firstAttribute="width" constant="30" id="zMt-uZ-xtt"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xZz-yZ-glk" secondAttribute="trailing" constant="8" id="41h-S0-Wpq"/>
+                <constraint firstItem="xZz-yZ-glk" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="8" id="8eh-HS-qwx"/>
+                <constraint firstItem="xZz-yZ-glk" firstAttribute="leading" secondItem="X1E-l5-DaZ" secondAttribute="trailing" constant="8" id="aGi-DM-FaP"/>
+                <constraint firstItem="X1E-l5-DaZ" firstAttribute="bottom" secondItem="Qct-c1-y9o" secondAttribute="bottom" id="fcx-mL-RiM"/>
+                <constraint firstItem="X1E-l5-DaZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="wCN-4b-RbR"/>
+                <constraint firstAttribute="bottom" secondItem="xZz-yZ-glk" secondAttribute="bottom" constant="8" id="wtN-ue-REC"/>
+            </constraints>
+            <size key="customSize" width="391" height="225"/>
+            <connections>
+                <outlet property="constraintImageViewAvatarWidth" destination="zMt-uZ-xtt" id="B6W-2b-wPD"/>
+                <outlet property="containerView" destination="xZz-yZ-glk" id="IMg-6c-Nt3"/>
+                <outlet property="imageViewAvatar" destination="X1E-l5-DaZ" id="FFv-Qo-blQ"/>
+                <outlet property="labelMessage" destination="Qct-c1-y9o" id="8cN-4Z-ggT"/>
+            </connections>
+            <point key="canvasLocation" x="154.5" y="86.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="girl" width="128" height="128"/>
+    </resources>
+</document>

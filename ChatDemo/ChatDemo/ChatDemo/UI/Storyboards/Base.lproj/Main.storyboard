@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Chat View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ChatViewController" customModule="ChatDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="rAK-BK-lmn">
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10000" id="iB1-Qu-RgX">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a68-ga-g1Q">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJe-nD-oeq">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="C53-V8-D0Z"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="44" id="OMt-vv-R8H"/>
+                                        </constraints>
+                                        <state key="normal" title="Gửi"/>
+                                        <connections>
+                                            <action selector="clickOnSendButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zx3-W9-yzZ"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sL9-hm-gmt" customClass="PlaceholderTextView" customModule="ChatDemo" customModuleProvider="target">
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="33" id="EOY-c7-zhw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="ygU-bd-auY"/>
+                                        </connections>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="sL9-hm-gmt" secondAttribute="bottom" constant="5" id="7XV-vr-WBR"/>
+                                    <constraint firstItem="SJe-nD-oeq" firstAttribute="leading" secondItem="sL9-hm-gmt" secondAttribute="trailing" id="PJw-LP-EYA"/>
+                                    <constraint firstItem="sL9-hm-gmt" firstAttribute="leading" secondItem="a68-ga-g1Q" secondAttribute="leading" constant="5" id="WbR-K5-OA6"/>
+                                    <constraint firstItem="SJe-nD-oeq" firstAttribute="bottom" secondItem="sL9-hm-gmt" secondAttribute="bottom" id="kuq-vc-Lug"/>
+                                    <constraint firstAttribute="trailing" secondItem="SJe-nD-oeq" secondAttribute="trailing" id="tl3-vE-VEM"/>
+                                    <constraint firstItem="sL9-hm-gmt" firstAttribute="top" secondItem="a68-ga-g1Q" secondAttribute="top" constant="5" id="ujX-sS-H2q"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k7W-WW-Ome">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B63-nv-PQY">
+                                        <frame key="frameInset" minX="322" width="53" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Nhận"/>
+                                        <connections>
+                                            <action selector="clickOnReceiveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3dm-V5-9gJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="oDW-mv-AzF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="rAK-BK-lmn" firstAttribute="top" secondItem="k7W-WW-Ome" secondAttribute="bottom" id="18w-Qh-wXd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a68-ga-g1Q" secondAttribute="bottom" id="2rr-UH-tnt"/>
+                            <constraint firstAttribute="trailing" secondItem="rAK-BK-lmn" secondAttribute="trailing" id="8OO-Bl-UYw"/>
+                            <constraint firstAttribute="trailing" secondItem="k7W-WW-Ome" secondAttribute="trailing" id="9bm-CE-GX3"/>
+                            <constraint firstItem="a68-ga-g1Q" firstAttribute="top" secondItem="rAK-BK-lmn" secondAttribute="bottom" id="TIU-eB-px7"/>
+                            <constraint firstAttribute="trailing" secondItem="a68-ga-g1Q" secondAttribute="trailing" id="XWD-be-3No"/>
+                            <constraint firstItem="k7W-WW-Ome" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="c3z-LH-DvA"/>
+                            <constraint firstItem="rAK-BK-lmn" firstAttribute="top" secondItem="k7W-WW-Ome" secondAttribute="bottom" id="hnS-ya-Meb"/>
+                            <constraint firstItem="a68-ga-g1Q" firstAttribute="top" secondItem="rAK-BK-lmn" secondAttribute="bottom" id="kSx-cG-B1e"/>
+                            <constraint firstItem="rAK-BK-lmn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mI9-II-BX9"/>
+                            <constraint firstItem="a68-ga-g1Q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ren-CU-PTE"/>
+                            <constraint firstItem="k7W-WW-Ome" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sCU-5o-l7u"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="aHX-wW-Q5t" appends="YES" id="U9A-jQ-J3O"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="buttonSend" destination="SJe-nD-oeq" id="TdL-x7-eba"/>
+                        <outlet property="chatCollectionView" destination="rAK-BK-lmn" id="6O4-fG-qRE"/>
+                        <outlet property="constraintTextViewMessageHeight" destination="EOY-c7-zhw" id="l3X-zR-RMm"/>
+                        <outlet property="constraintToolbarBottom" destination="2rr-UH-tnt" id="asJ-6u-KnT"/>
+                        <outlet property="textViewMessage" destination="sL9-hm-gmt" id="0yI-71-oPX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="aHX-wW-Q5t">
+                    <connections>
+                        <action selector="tapOnCollectionView:" destination="BYZ-38-t0r" id="e8U-Cm-xvO"/>
+                        <outlet property="delegate" destination="rAK-BK-lmn" id="m9C-kf-fjy"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
