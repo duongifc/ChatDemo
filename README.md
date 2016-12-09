@@ -28,6 +28,7 @@ This project is a demo of chat application uses:
 ### Project structure
 
 |↝ `Application`: contains global variables, application management functions, prefix,..
+
 |↝ `Configurations`: setup environment (development, production, staging), database, ...
 |↝ `Models`: contains model objects
 |↝ `Services`: contains services which analyze data, communicate with api, database, cache and other datasources
