@@ -25,26 +25,26 @@ This project is a demo of chat application uses:
 - [Unit Test]
 - [UI Test]
 
-### Project structure
 
-|↝ `Application`: contains global variables, application management functions, prefix,..
-|↝ `Configurations`: setup environment (development, production, staging), database, ...
-|↝ `Models`: contains model objects
-|↝ `Services`: contains services which analyze data, communicate with api, database, cache and other datasources
-|↝ `UI` - `Presentation layer`
-|-----|-----↝ `Custom controls`: contains custom controls which are not supported from cocoapods, carthage and written by yourself
-|-----|-----↝ `Helpers`: contains libraries which are related to UI and can not build as framework
-|-----|-----↝ `Common`: contains base element, controls, ...
-|-----|-----↝ `Scenes`: seperated by screens
-|-----|------------|-----↝ `Example screen`:  
-|-----|------------|----------------|-----↝ `ViewControllers`:  bind data and event, do not implement business logic code
-|-----|------------|----------------|-----↝ `ViewModels`:  implement business logic code
-|-----|------------|----------------|-----↝ `Views`:  contains child views, cells, ...
-|-----|------------|-----↝ `Storyboards`:  contains storyboards
-|↝ `Resources`: contains images, assets, videos, audios, database, jsons, xmls and other local data files
-|↝ `Utilities`:  help develop easier and faster and code more beautiful
-|↝ `Extensions`: contains extensions
-|---------|-----↝ **and other**
+### Project structure
+> |↝ `Application`: contains global variables, application management functions, prefix,..__
+> |↝ `Configurations`: setup environment (development, production, staging), database, ...__
+> |↝ `Models`: contains model objects__
+> |↝ `Services`: contains services which analyze data, communicate with api, database, cache and other datasources__
+> |↝ `UI` - `Presentation layer`__
+> -----|-----↝ `Custom controls`: contains custom controls which are not supported from cocoapods, carthage and written by yourself__
+> -----|-----↝ `Helpers`: contains libraries which are related to UI and can not build as framework__
+> -----|-----↝ `Common`: contains base element, controls, ...__
+> -----|-----↝ `Scenes`: seperated by screens__
+> -----|------------|-----↝ `Example screen`:  __
+> -----|------------|----------------|-----↝ `ViewControllers`:  bind data and event, do not implement business logic code__
+> -----|------------|----------------|-----↝ `ViewModels`:  implement business logic code__
+> -----|------------|----------------|-----↝ `Views`:  contains child views, cells, ...__
+> -----|------------|-----↝ `Storyboards`:  contains storyboards__
+> |↝ `Resources`: contains images, assets, videos, audios, database, jsons, xmls and other local data files__
+> |↝ `Utilities`:  help develop easier and faster and code more beautiful__
+> |↝ `Extensions`: contains extensions__
+> ---------|-----↝ **and other**
 
 
 > Thanks for reading,
