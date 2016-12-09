@@ -33,7 +33,7 @@ class ChatDemoUITests: XCTestCase {
     
     func testSendMessage() {
         //Setup
-        let message = "This is Duong"
+        let message = "Duong"
         let textView = application.textViews.element(boundBy: 0)
         
         //Action

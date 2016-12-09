@@ -29,7 +29,6 @@ class ChatViewModelTests: XCTestCase {
         //Setup
         let message = "Message"
         let expectedResult = ChatModel(id: "12345", message: message, time: 123123, isMine: true)
-        ChatServiceMock.mockMessage = expectedResult
         
         //Action
         var result: ChatModel?
@@ -42,6 +41,7 @@ class ChatViewModelTests: XCTestCase {
             }, onDisposed: { 
                 
             })
+        ChatServiceMock.mockMessage = expectedResult
         viewModel.sendMessage(message: message)
         
         //Assert
