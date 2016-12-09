@@ -1,4 +1,7 @@
 # Chat Demo
+![ScreenShot](https://raw.github.com/duongifc/ChatDemo/master/Demo.gif)
+
+
 ### Requirements:
 - [Xcode 8]
 - [Swift 3.0]
